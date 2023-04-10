@@ -1,0 +1,28 @@
+{
+  "name": "floating-object",
+  "version": "1.0.0",
+  "description": "Floating object liberary that changes the position of an element based on the cursor position that makes floating interactive animation effect.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babakzy/floating-object.git"
+  },
+  "keywords": [
+    "floating",
+    "flying",
+    "object",
+    "animation",
+    "iteractive",
+    "mouse"
+  ],
+  "author": "Babakzy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babakzy/floating-object/issues"
+  },
+  "homepage": "https://github.com/babakzy/floating-object#readme"
+}
