@@ -2,6 +2,8 @@ export function floating(containerId, targetId, coefficient) {
 
   const conatinerElement = document.getElementById(containerId);
   const targetElement = document.getElementById(targetId)
+  targetElement.style.top = 'calc( 50% - ' +  targetElement.offsetHeight / 2 +'px )'
+  targetElement.style.left = 'calc( 50% - ' +  targetElement.offsetHeight / 2 +'px )'
   conatinerElement.addEventListener("mousemove", (event) => { makeFloating(event, conatinerElement, targetElement, coefficient) });
 
 }
