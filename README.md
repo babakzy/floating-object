@@ -1,6 +1,9 @@
 # floating-object
 Floating object liberary that changes the position of an element based on the cursor position that makes floating interactive animation effect.
 
+## Demo
+<img src="./demo-gif.gif" alt="floating object demo">
+
 ## 1.Install
 run this command
 ```bash
