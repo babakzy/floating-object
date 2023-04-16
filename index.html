@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Floating Object</title>
+		<meta name="description" content="interactive floating object">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="./node_modules/floating-object/floating.css">
+	</head>
+	<style>
+		body{
+			margin:0;
+			max-width: 100%;
+			overflow-x: hidden;
+			font-family: 'Nunito Sans', sans-serif;
+		}
+		p{
+			font-weight: 300;
+			color: rgb(49, 49, 49);
+		}
+		.container{
+			padding: 15px;
+			text-align: center;
+		}
+		.area{
+			border:2px solid rgb(194, 190, 204);
+			border-radius: 4px;
+			margin: auto;
+		}
+		#floating-container{
+			width: 700px;
+			height: 700px;
+			
+		}
+		#floating-object{
+			width: 250px;
+			height: 250px;
+		}
+	</style>
+<body class="container">
+	<div >
+		<h1>floating-object</h1>
+		<p>Interavtive Floating Object Liberary</p>
+	</div>
+	<div>
+		<div id="floating-container" class="area">
+			<img id="floating-object"  src="./assets/earth.png" alt="🌍 Floating earth ">
+		</div>	
+	</div>
+
+	<a href="https://github.com/babakzy/floating-object">GitHub</a>
+	<a href="https://www.npmjs.com/package/floating-object">NPM</a>
+</body>
+
+
+
+    <!-- <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> -->
+	<script src="./node_modules/floating-object/index.js"></script>
+    <script src="./assets/script.js"></script>
+</html>
