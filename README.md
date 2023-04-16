@@ -8,27 +8,26 @@ Floating object liberary that changes the position of an element based on the cu
 
 <img src="./demo-gif.gif" alt="floating object demo">
 
-## 1.Install
+## 1. Install
 run this command
 ```bash
 npm install floating-object
 ```
 
-## 2.import 
+## 2. import 
 import the package in your project
 
-CSS
+Add CSS to you HTML
 ```html
 <link rel="stylesheet" href="./node_modules/floating-object/floating.css">
 ```
 
-JavaScript
+Add JavaScript to you HTML
 ```html
 <script src="./node_modules/floating-object/index.js"></script>
 ```
 
-
-## Add ID for floating Object
+## 3. Add ID for floating Object
 add "floating-container" for parent and "floating-object" for floating object in your HTML
 ```html
 <div id="floating-container">
@@ -37,7 +36,7 @@ add "floating-container" for parent and "floating-object" for floating object in
 ```
 *floating-container is a 100vw * 100vh ID which specifies the mouse interactive area. you can make it smaller but the best performance is when it's full width an height.
 
-## 3.Apply floating effect on an object 
+## 4. Apply floating effect on an object 
 Use this function
 floating-container: it is ID of parent element of floating object
 floating-object:it is ID of floating object
