@@ -1,7 +1,11 @@
 # floating-object
 Floating object liberary that changes the position of an element based on the cursor position that makes floating interactive animation effect.
 
+
+
 ## Demo
+ [Online Demo](https://codepen.io/babakzy/pen/xxyVQNO)
+
 <img src="./demo-gif.gif" alt="floating object demo">
 
 ## 1.Install
@@ -19,20 +23,17 @@ CSS
 ```
 
 JavaScript
-```javascript
-import { floating } from 'floating-object'
+```html
+<script src="./node_modules/floating-object/index.js"></script>
 ```
-Or 
-```javascript
-import { floating } from './node_modules/floating-object/index.js'
-```
+
 
 ## Add ID for floating Object
 add "floating-container" for parent and "floating-object" for floating object in your HTML
 ```html
-	<div id="floating-container">
-        <img id="floating-object" width="200px" src="./assets/earth.png" alt="🌍 Floating earth ">
-	</div>	
+<div id="floating-container">
+	<img id="floating-object" width="200px" src="./assets/earth.png" alt="🌍 Floating earth ">
+</div>	
 ```
 *floating-container is a 100vw * 100vh ID which specifies the mouse interactive area. you can make it smaller but the best performance is when it's full width an height.
 
@@ -40,8 +41,8 @@ add "floating-container" for parent and "floating-object" for floating object in
 Use this function
 floating-container: it is ID of parent element of floating object
 floating-object:it is ID of floating object
-30: it is coefficient value that effects on object movement for example here the object will floats(moves) maximum 30px based on mouse position
+120: it is coefficient value that effects on object movement for example here the object will floats(moves) maximum 120px based on mouse position
 ```javascript
-floating('floating-container' , 'floating-object',30);
+floating('floating-container' , 'floating-object',120);
 ```
 

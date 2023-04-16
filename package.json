@@ -1,6 +1,6 @@
 {
   "name": "floating-object",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Floating object liberary that changes the position of an element based on the cursor position that makes floating interactive animation effect.",
   "main": "index.js",
   "type": "module",
